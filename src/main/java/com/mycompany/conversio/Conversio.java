@@ -22,12 +22,12 @@ public class Conversio {
         if(valor == 1){
         System.out.println("Introdueix en €");
         int valor_euros = sc.nextInt();
-        double tipus_de_canvi = 0.86d;
+        double tipus_de_canvi = 0.86;
         System.out.println(valor_euros + " euros (€) actualment equivalen a" + (valor_euros * tipus_de_canvi) + " lliures esterlines (£)");
         }else if(valor == 2){
         System.out.println("Introdueix en €");
         int valor_euros = sc.nextInt();
-        double tipus_de_canvi = 1.16d;
+        double tipus_de_canvi = 1.16;
         System.out.println(valor_euros + " lliures esterlines (£) actualment equivalen a" + (valor_euros * tipus_de_canvi) + " euros (€)");
         } else if(valor == 3)
             bucle =false;
